@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="djwdj.tv" >
+
+    <application
+        android:icon="@drawable/l"
+        android:label="@string/l"
+		android:theme="@style/l">
+        <activity
+            android:name="l.l"
+            android:label="@string/l"
+			android:screenOrientation="landscape"
+			android:hardwareAccelerated="true"
+			android:configChanges="orientation|screenSize|keyboardHidden"
+			>
+			
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+	
+	<uses-permission android:name="android.permission.INTERNET" />
+		
+</manifest>
