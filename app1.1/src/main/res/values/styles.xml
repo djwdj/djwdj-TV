@@ -1,0 +1,14 @@
+<resources>
+    <style name="l" >
+
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+		<!--<item name="android:windowContentOverlay">@null</item>-->
+		<item name="android:navigationBarColor">#000000</item>
+		<!--<item name="android:windowOverscan">true</item>-->
+		
+		
+		
+		
+	</style>
+</resources>
